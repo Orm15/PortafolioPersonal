@@ -316,6 +316,22 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-sm-6  mb-4 mb-lg-0">
+                        <!-- Portfolio item 9-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/handClasify.png" alt="..." style="height: 305px; width: 406px;"/>
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Clasificación de gestos</div>
+                                <div class="portfolio-caption-subheading text-muted">Python - PyTorch</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -806,7 +822,79 @@
             </div>
         </div>
 
+        <!-- Portfolio item 9 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Clasificación de gestos de la mano</h2>
+                                    <p class="item-intro text-muted">Python - PyTorch</p>
+                                    <h3>Identificación de puntos clave: </h3>
 
+                                    <div class="video-container">
+                                        <iframe 
+                                            src="https://www.youtube.com/embed/vr7Aadqtom8?si=vSt8AsyBMpzZ9d5B" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    
+                                    <p>El sistema de reconocimiento de gestos manuales utiliza visión por computadora y redes neuronales para identificar movimientos de la mano en tiempo real. A través de MediaPipe Hands, se capturan las coordenadas tridimensionales de 21 puntos clave de la mano, que luego son procesadas por un modelo de aprendizaje profundo en PyTorch. Este modelo clasifica los gestos y muestra el resultado junto con una barra de probabilidades para cada categoría en una interfaz visual. Su diseño permite aplicaciones en reconocimiento de lenguaje de señas, control por gestos y accesibilidad, brindando una interacción intuitiva y sin contacto.</p>
+                                    <ul class="list-inline">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a href="https://github.com/Orm15/BasicHandGestures.git" target="_blank">GitHub</a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                    <h3>Integración con red neuronal: </h3>
+                                    <div class="video-container">
+                                        <iframe 
+                                            src="https://www.youtube.com/embed/jzb5KLZrqrk?si=LlPI06i_MYsQypKq" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            referrerpolicy="strict-origin-when-cross-origin" 
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <style>
+                                        .video-container {
+                                            position: relative;
+                                            width: 100%;
+                                            max-width: 800px; /* Ancho máximo para pantallas grandes */
+                                            margin: 0 auto;   /* Centrar el video horizontalmente */
+                                            border-radius: 10px; /* Bordes redondeados */
+                                            overflow: hidden; /* Ocultar cualquier desbordamiento */
+                                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra para un efecto elegante */
+                                        }
+
+                                        .video-container iframe {
+                                            width: 100%;
+                                            height: 450px; /* Proporción adecuada para la mayoría de videos */
+                                            border: none; /* Quitar borde del iframe */
+                                        }
+
+                                    </style>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Bootstrap core JS-->
